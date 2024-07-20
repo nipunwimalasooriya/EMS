@@ -2,6 +2,7 @@ import './style.css';
 import { useState } from 'react';
 import axio from 'axios';
 
+
 const Login = () => {
         const [values, setValues] = useState(
         {
@@ -21,6 +22,7 @@ const Login = () => {
                 console.log(err);
             });
         }
+
         return (
         <div className='d-flex justify-content-center align-items-center vh-100 loginPage'>
             <div className='p-3 rounded 2-25 border loginForm'>
@@ -45,6 +47,8 @@ const Login = () => {
             </div>
         </div>
     );
+
 }
 
 export default Login;
+
