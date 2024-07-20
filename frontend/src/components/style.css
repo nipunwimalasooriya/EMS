@@ -1,0 +1,13 @@
+.loginPage {
+    background: url('img/loginBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+
+    
+}
+
+.loginForm {
+    background: #ffffff;
+    color: rgb(0, 78, 196);
+}
