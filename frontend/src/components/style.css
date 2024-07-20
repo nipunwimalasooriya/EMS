@@ -9,5 +9,11 @@
 
 .loginForm {
     background: #ffffff;
-    color: rgb(0, 78, 196);
+    padding: 2rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fff;
 }
+
+
+
