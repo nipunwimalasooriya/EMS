@@ -7,10 +7,12 @@ const con = mysql.createConnection({
     database: "EMS"
 })
 
-con.createConnection(function(err) {
+con.connect(function(err) {
     if(err) {
         console.log("Connection error" + err)
     }else{
         console.log("Connection Successfull")
     }
 })
+
+export default con;
